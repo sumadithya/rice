@@ -1,0 +1,8 @@
+#!/bin/sh
+# Display Settings
+xrandr --newmode "1920x1080_144.00"  452.50  1920 2088 2296 2672  1080 1083 1088 1177 -hsync +vsync
+xrandr --addmode DP-1 1920x1080_144.00
+xrandr --output DP-1 --primary --mode 1920x1080_144.00 --pos 1680x0 --rotate normal --output DP-2 --off --output HDMI-1 --off --output HDMI-2 --off --output DVI-D-1 --mode 1680x1050 --pos 0x30 --rotate normal
+# Auto Start
+xcompmgr -c &
+start-pulseaudio-x11 &

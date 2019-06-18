@@ -1,0 +1,12 @@
+# shell aliases
+# XBPS aliases
+alias xu='sudo xbps-install -Syuv && sudo xbps-remove -oy' # updates and removes orphans
+alias xr='sudo xbps-remove'
+alias xi='sudo xbps-install'
+alias xq='sudo xbps-query'
+# config file aliases
+alias i3rc='vim ~/.config/i3/config'
+alias aliasrc='vim ~/.config/aliasrc'
+alias bashrc='vim ~/.bashrc'
+alias polybarrc='vim ~/.config/polybar/config'
+# better commands
