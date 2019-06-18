@@ -1,11 +1,11 @@
-# Hess' Rice
+### Hess' Rice
 This is my rice for Void Linux,I have created this so that if anyone wants to use my config files they can.
 # Contents
 My Programs
 Installation
 Screenshots
 
-## My Programs
+# My Programs
 editor=vim
 email=neomutt
 files=ranger
