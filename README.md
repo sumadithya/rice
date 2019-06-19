@@ -14,6 +14,7 @@ This is my rice for Void Linux,I have created this so that if anyone wants to us
 + email=neomutt
 + files=ranger
 + terminal=luke's fork of st "https://github.com/LukeSmithxyz/st"
++ pdf=zathura, zathura-djvu, zathura-pdf-mupdf
 
 ## Installation
 If you want to install mu config I suggest 2ways 
