@@ -20,10 +20,10 @@ If you want to install mu config I suggest 2ways
 + 1. Make a new user and copy my files 
 + 2. Copy them to your own user, I reccomend the former since you do not have to backup your files
 
-## Dependencies
+### Dependencies
 i3-gaps polybar ranger vim neofetch
 
-### New User - Reccomended
+#### New User - Reccomended
 This will allow you to test the configuration without having to backup your current one
 
 1. create a new user, make sure to add it to some groups
@@ -46,7 +46,7 @@ cd ~; git clone https://github.com/Hess2906/rice.git"
 ```
 cp ~/rice/* ~/; cp ~/rice/.* ~/"
 ```
-### Current user
+#### Current user
 good if you haven;t yet cofnigured your system
 
 1. Change to your /home directory and clone the repository
@@ -58,4 +58,3 @@ mkdir ~/Backup; cp ~/* ~/Backup/; cp ~/.* ~/Backup
 3. copy files
 cp ~/rice/* ~/; cp ~/rice/.* ~/
 
-## Screenshots
