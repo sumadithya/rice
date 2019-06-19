@@ -10,11 +10,11 @@ This is my rice for Void Linux,I have created this so that if anyone wants to us
 <img src="https://github.com/Hess2906/rice/blob/master/rice.png" width="100%"></img> 
 
 ## My Programs
-+ editor=vim
-+ email=neomutt
-+ files=ranger
-+ terminal=luke's fork of st "https://github.com/LukeSmithxyz/st"
-+ pdf=zathura, zathura-djvu, zathura-pdf-mupdf
++ editor: vim
++ email: neomutt
++ files: ranger
++ terminal: Luke's fork of st "https://github.com/LukeSmithxyz/st"
++ pdf: zathura, zathura-djvu, zathura-pdf-mupdf
 
 ## Installation
 If you want to install mu config I suggest 2ways 
@@ -22,7 +22,7 @@ If you want to install mu config I suggest 2ways
 + 2. Copy them to your own user, I reccomend the former since you do not have to backup your files
 
 ### Dependencies
-i3-gaps polybar ranger vim neofetch
+i3-gaps polybar ranger vim neofetch zathura zathura-djvu zathura-pdf-mupdf
 
 #### New User - Reccomended
 This will allow you to test the configuration without having to backup your current one
