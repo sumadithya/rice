@@ -26,35 +26,38 @@ i3-gaps polybar ranger vim neofetch
 #### New User - Reccomended
 This will allow you to test the configuration without having to backup your current one
 
-1. create a new user, make sure to add it to some groups
+1. create a new user, make sure to add it to some groups 
 ```
-useradd -m -G <groups> -s <shell> <user>
+useradd -m -G <groups> -s /bin/bash <username>
 ```  
 2. set the pasword for the user
 ```
-"passwd <user>"
+passwd <username>
 ```
 3. login as the user
 ```
-"su <user>"
+su <username>
 ```
-4. change to the their /home directory and clone my repository
+4. change to the their /home directory and clone my repo
 ```
-cd ~; git clone https://github.com/Hess2906/rice.git"
+cd ~; git clone https://github.com/Hess2906/rice.git
 ```
-5. copy it over
+5. copy it to the /home
 ```
-cp ~/rice/* ~/; cp ~/rice/.* ~/"
+cp ~/rice/* ~/; cp ~/rice/.* ~/
 ```
 #### Current user
 good if you haven;t yet cofnigured your system
 
 1. Change to your /home directory and clone the repository
+```
 cd ~; git clone https://github.com/Hess2906/rice.git
-
+```
 2. backup if you want to
+```
 mkdir ~/Backup; cp ~/* ~/Backup/; cp ~/.* ~/Backup
-
+```
 3. copy files
+```
 cp ~/rice/* ~/; cp ~/rice/.* ~/
-
+```
