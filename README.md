@@ -2,9 +2,9 @@
 This is my rice for Void Linux,I have created this so that if anyone wants to use my config files they can.
 
 ## Contents
-Sample
-My Programs
-Installation
++ Sample
++ My Programs
++ Installation
 
 ## Sample
 <img src="https://github.com/Hess2906/rice/blob/master/rice.png" width="100%"></img> 
