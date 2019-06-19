@@ -27,7 +27,7 @@ i3-gaps polybar ranger vim neofetch zathura zathura-djvu zathura-pdf-mupdf
 #### New User - Reccomended
 This will allow you to test the configuration without having to backup your current one
 
-1. create a new user, make sure to add it to some groups 
+1. create a new user, make sure to add it to some groups: -m makes home. -G adds groups -s chooses shell (my config only has a bashrc, so I reccomend bash)
 ```
 useradd -m -G <groups> -s /bin/bash <username>
 ```  
